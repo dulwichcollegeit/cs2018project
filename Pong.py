@@ -25,8 +25,8 @@ class Ball(pygame.sprite.Sprite):
         self.speed = 0
  
         # Floating point representation of where the ball is
-        self.x = 1
-        self.y = 1
+        self.x = 0
+        self.y = 0
  
         # Direction of ball in degrees
         self.direction = 0
